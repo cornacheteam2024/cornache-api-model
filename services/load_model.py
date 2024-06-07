@@ -3,7 +3,7 @@ import tensorflow as tf
 
 # Use os.path to construct the model path
 model_dir = "model"
-model_filename = "my_model.h5"
+model_filename = "model_fold.h5"
 model_path = os.path.join(model_dir, model_filename)
 print(model_path)
 
